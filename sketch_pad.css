@@ -1,0 +1,83 @@
+
+* {
+	box-sizing: border-box;
+}
+
+html, body, div,ul{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+/* END OF CSS-RESET */
+
+body {
+	background-color:#d1ecef;
+}
+
+#nav {
+	text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #97E39E;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #C8EFBC;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#grid {
+	width: 960px;
+	height: 960px;
+	margin: 25px auto;
+	background-color: #fff;
+}
+
+.tile {
+	margin: 0;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	border: 1px dotted rgba(0, 0, 0, .05);
+	float: left;
+	background-color: #fff;
+	opacity: 0.1;
+}
+
+
+
+.hidden {
+	visibility: hidden;
+}
+
+
+
+
+
+
